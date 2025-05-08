@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-08T01:58:50.728Z",
+    "end": "2025-05-08T01:58:50.830Z",
+    "duration": 102
+  },
+  "tests": [
+    {
+      "title": "returns an array with title case tutorial names",
+      "fullTitle": "index.js titleCased() returns an array with title case tutorial names",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns an array with title case tutorial names",
+      "fullTitle": "index.js titleCased() returns an array with title case tutorial names",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
