@@ -17,7 +17,9 @@ const capitalize = (string) => {
 }
 
 const titleCased = () => {
-  const tutorialsCapped = tutorials.map(capitalize)
-  console.log(tutorialsCapped)
-  return tutorialsCapped
+  return tutorials.map(tutorial => {
+    const words = tutorial.split(" ")
+    const capitalizedWords = words.map(capitalize)
+    return capitalizedWords.join(" ")
+  })
 }
